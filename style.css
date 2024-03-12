@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34; /* Dark background color */
+    color: #61dafb; /* Light text color */
+    font-family: 'Arial', sans-serif;
+}
+
+.start-container {
+    text-align: center;
+}
+
+.start-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.start-button {
+    background-color: #61dafb; /* Light color */
+    color: #161b22; /* Dark text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #0095DD; /* Hover color */
+}
+
+
+canvas {
+    border: 2px solid #61dafb;
+    display: block;
+    margin: 0 auto;
+    background-color: #282c34; /* Dark background color */
+}
+
+#breakoutCanvas {
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.8);
+}
+
+/* Paddle styling */
+.paddle {
+    fill: #61dafb; /* Light color */
+}
+
+/* Ball styling */
+.ball {
+    fill: #61dafb; /* Light color */
+}
+
+/* Bricks styling */
+.brick {
+    fill: #61dafb; /* Light color */
+}
+
+/* Game Over and Congratulations styling */
+.game-text {
+    font-size: 24px;
+    text-align: center;
+}
